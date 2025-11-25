@@ -18,7 +18,7 @@
       /* Banner nền ảnh */
 .banner {
     width: 100%;
-    height: 300px;
+    height: 320px;
     background-image: url('himfri.jpg');
     background-size: cover;
     background-position: center;
@@ -72,6 +72,7 @@
         <p>Repl.it (https://replit.com/).</p>
           <div style="background-color: #FFFFFF; padding: 10px;">
         <h2>Vận dụng 2: Sử dụng phần mềm soạn thảo HTML và soạn thảo trang web có nội dung như Hình 7.7. Lưu ý rằng thẻ < img> với tính tăng thể hiện ảnh trên trang web có cú pháp: < img src = "tên tệp ảnh">,trong đó “tên tệp ảnh” chính là đường dẫn của tệp hình ảnh cần đưa lên trang.</h2>
+          </div>
         <p>< !DOCTYPE html></p>
         <p>< html></p>
         <p>  < head></p>
