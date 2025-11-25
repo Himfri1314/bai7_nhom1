@@ -38,7 +38,6 @@
     <div class="container">
         <div class="card">
        <h1 style="text-align:center;text-decorating: none; color: white; padding: 0 50px;">NGUYỄN KHẢ HÂN</h1>
-              <div style="background-color: #4B6D7E; padding: 10px;"> 
        <p style="text-align:center;text-decorating: none; color: white; padding: 0 10px;">🔰 Acc chính chủ 🔰</p>
        <p style="text-align:center;text-decorating: none; color: white; padding: 0 10px;">🍚👕🌾💵</p>
        <p style="text-align:center;text-decorating: none; color: white; padding: 0 10px;">Đối sao đáp vậy👍🏻</p>
