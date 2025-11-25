@@ -19,7 +19,7 @@
 .banner {
     width: 100%;
     height: 300px;
-    background-image: url('bai7.png');
+    background-image: url('humm.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
