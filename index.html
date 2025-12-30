@@ -135,16 +135,18 @@ body {
 }
       /* ===== Nội dung ===== */
      .exercise-box {
-    width: 1000px;          /* cố định độ rộng khung */
+    width: 1000px;          /* độ rộng cố định */
     margin: 30px auto;      /* CĂN GIỮA KHUNG */
-    
-    background: #fff;
-    padding: 25px;
+
+    background: #ffffff;
+    padding: 30px;
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 
-    text-align: center;     /* CĂN GIỮA NỘI DUNG (CHỮ) */
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* CĂN GIỮA NỘI DUNG */
+    text-align: center;     /* CĂN GIỮA CHỮ */
         .wrapper {
     width: 100%;
     display: flex;
@@ -198,7 +200,7 @@ body {
         <img src="LT2.png">
           <style>
   .img-nho {
-    width: 400px;      /* chỉnh kích thước */
+    width: 200px;      /* chỉnh kích thước */
     height: auto;      /* giữ đúng tỉ lệ */
   }
 </style>
@@ -235,6 +237,7 @@ body {
         <p>     < p>Phiên bản hiện tại là HTML5, ra đời năm 2014.< /p></p>
         <p>  < /body></p>
         <p>< /html></p>
+
 
 
 
