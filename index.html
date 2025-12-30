@@ -134,19 +134,29 @@ body {
     font-weight: bold;
 }
       /* ===== Nội dung ===== */
-     .exercise-box {
-    width: 1000px;
-    margin: 30px auto;
-    background: #fff;
-    padding: 30px;
+    /* RESET để tránh CSS cũ phá layout */
+body {
+    margin: 0;
+}
+
+/* THẰNG NÀY CHỊU TRÁCH NHIỆM CĂN GIỮA */
+.center-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* CĂN GIỮA KHUNG */
+}
+/* KHUNG TRẮNG */
+.exercise-box {
+    width: 900px;          /* BẮT BUỘC */
+    margin: 25px 0;
+
+    background: #ffffff;
+    padding: 25px;
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-}
-.exercise-box h3 {
-    text-align: center;
-}
-.exercise-box p {
-    text-align: left;
+
+    text-align: center;    /* CĂN GIỮA NỘI DUNG */
 }
         .wrapper {
     width: 100%;
@@ -238,6 +248,7 @@ body {
         <p>     < p>Phiên bản hiện tại là HTML5, ra đời năm 2014.< /p></p>
         <p>  < /body></p>
         <p>< /html></p>
+
 
 
 
