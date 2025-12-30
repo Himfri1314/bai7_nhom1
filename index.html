@@ -133,30 +133,48 @@ body {
     letter-spacing: 5px;
     font-weight: bold;
 }
-      /* ===== Nội dung ===== */
-    /* RESET để tránh CSS cũ phá layout */
-body {
-    margin: 0;
+   /* ÉP CĂN GIỮA – GHI ĐÈ TẤT CẢ */
+.force-center {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
 }
+.box {
+    width: 900px !important;
+    margin: 30px auto !important;
 
-/* THẰNG NÀY CHỊU TRÁCH NHIỆM CĂN GIỮA */
-.center-wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   /* CĂN GIỮA KHUNG */
+    background: #fff !important;
+    padding: 25px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1) !important;
+
+    text-align: center !important;
 }
-/* KHUNG TRẮNG */
-.exercise-box {
-    width: 900px;          /* BẮT BUỘC */
-    margin: 25px 0;
-
-    background: #ffffff;
-    padding: 25px;
+      /* ===== NỘI DUNG ===== */
+        .wrapper {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .wrapper h2 {
+            font-size: 28px;
+            color: #1f2d3d;
+            margin-bottom: 25px;
+        }
+        /* ===== KHUNG ĐỀ BÀI ===== */
+        .exercise {
+            background-color: #ffffff;
+            padding: 25px 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            border-left: 6px solid #2f80ed;
+        }
+        .exercise {
+    width: 1000px;         /* QUAN TRỌNG */
+    background-color: #fff;
+    padding: 25px 30px;
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-
-    text-align: center;    /* CĂN GIỮA NỘI DUNG */
 }
 </style>
    <div id="wp-products">
@@ -228,6 +246,7 @@ body {
         <p>     < p>Phiên bản hiện tại là HTML5, ra đời năm 2014.< /p></p>
         <p>  < /body></p>
         <p>< /html></p>
+
 
 
 
